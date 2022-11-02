@@ -4,21 +4,36 @@ body {
 
 
 h1 {
-    font-size: 58px;
-    color: #D9D9D9
+    font-size: 98px;
+    color: #D9D9D9;
+    padding-left: 400px;
     
 }
 
 h2 {
-    font-size: 48px;
-    color:  #9CD33B
+    font-size: 68px;
+    color:  #9CD33B;
+    padding-left: 1400px
 }
 
 p {
-    font-size: 24px;
+    font-size: 36px;
+    padding-left: 1400px;
+    color:  #9CD33B;
+}
+
+nav {
+    text-align: right;;
 }
 
 a {
-    font-size: 24px;
-    color: #D9D9D9
+    font-size: 36px;
+    color: #D9D9D9;
+    padding: 24px;
+
+}
+
+#foto_home {
+    position: absolute; 
+	top: 400px;
 }
