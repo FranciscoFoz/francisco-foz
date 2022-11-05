@@ -7,29 +7,37 @@ h1 {
     font-size: 98px;
     color: #D9D9D9;
     padding-left: 400px;
+    font-family: "Fjalla One";
     
 }
 
 h2 {
     font-size: 68px;
     color:  #9CD33B;
-    padding-left: 1400px
+    padding-left: 1400px;
+    font-family: "Fjalla One";
 }
 
 p {
     font-size: 36px;
     padding-left: 1400px;
     color:  #9CD33B;
+    font-family: "Fjalla One";
 }
 
 nav {
-    text-align: right;;
+    text-align: right;
 }
 
 a {
-    font-size: 36px;
     color: #D9D9D9;
     padding: 24px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Fjalla One";
+    text-decoration: none;
+    margin-right: 30px;
+
 
 }
 
