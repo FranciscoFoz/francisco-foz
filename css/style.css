@@ -39,6 +39,11 @@ a {
     margin-right: 30px;
 }
 
+a:hover {
+    color: #9CD33B;
+
+}
+
 #foto_home {
     position: absolute; 
 	top: 400px;
