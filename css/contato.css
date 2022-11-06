@@ -1,0 +1,22 @@
+body {
+    background: #1E1E1F;
+}
+
+.titulo_pagina {
+    position: relative;
+    width: 0px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    position: relative;
+
+    color:  #9CD33B;
+    font-family: "Fjalla One";
+
+}
+
+#logos_contatos{
+    height: 50px;
+}
