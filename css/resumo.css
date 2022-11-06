@@ -2,16 +2,54 @@ body {
     background: #1E1E1F;
 }
 
+.titulo_pagina {
+    position: relative;
+    width: 0px;
+    margin: 0 auto;
+    
+}
+
 h1 {
-    font-size: 98px;
     color: #D9D9D9;
     font-family: "Fjalla One";
+    position: relative;
+
+}
+
+.resumo {
+    position: relative;
+    
+}`
+
+p {
+    color: #D9D9D9;
+    font-family: "Fjalla One";
+}
+
+#foto_resumo {
+    position: relative;
+    top: 0px;
+    left: 755px;
+
+}
+
+.principais_ferramentas {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
     
 }
 
 h2 {
-    font-size: 98px;
     color: #D9D9D9;
     font-family: "Fjalla One";
+    text-align: center;
     
+}
+
+.powerbi_logo{
+    margin-right: 50px
+}
+.python_logo{
+    margin-right: 50px
 }
