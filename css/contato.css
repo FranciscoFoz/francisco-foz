@@ -17,6 +17,41 @@ h1 {
 
 }
 
-#logos_contatos{
-    height: 50px;
+
+
+main {
+    position: relative;
+    padding-left: 10%;
+    margin: 0 auto;
+}
+
+img{
+    position: relative;
+    margin: 0 auto;
+    padding-left: 10%;
+
+
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+    color: #D9D9D9;
+}
+
+form input{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    width: 90%;
+}
+
+#mensagem {
+    height: 300px;
 }
