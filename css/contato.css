@@ -46,12 +46,27 @@ form label {
 }
 
 form input{
-    display: block;
+    display: inline;
     font-size: 20px;
     margin: 0 0 20px;
     width: 90%;
 }
 
+#nome {
+    box-shadow: 10px 5px 0 black;
+}
+
+#email {
+    box-shadow: 10px 5px 0 black;
+}
+
 #mensagem {
     height: 300px;
+    box-shadow: 10px 5px 0 black;
+}
+
+
+
+#button{
+    box-shadow: 10px 5px 0 black;
 }
