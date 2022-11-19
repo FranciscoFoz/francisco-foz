@@ -24,28 +24,24 @@ main {
     margin: 0 auto;
 }
 
-#logo_github{
-    position: relative;
-    margin: 0 auto;   
+#logos{
+    width: 1024px;
+    margin: 0 auto;
 }
 
-#logo_linkedin{    
-    position: relative;
-    padding-left: 25%;
-    margin: 0 auto; 
-
+#logo_linkedin{
+    padding-left: 20%;
 }
 
 #logo_twitter{
-    position: relative;
-    padding-left: 25%;
-    margin: 0 auto; 
-    
+    padding-left: 20%;
 }
 
 
 form {
-    margin: 40px 0;
+    padding-top: 1%;
+    width: 1024px;
+    margin: 0 auto;
 }
 
 form label {
@@ -65,19 +61,28 @@ form input{
 
 #nome {
     box-shadow: 10px 5px 0 black;
+    border-radius: 20px;
 }
 
 #email {
     box-shadow: 10px 5px 0 black;
+    border-radius: 20px;
 }
 
 #mensagem {
-    height: 300px;
+    height: 200px;
     box-shadow: 10px 5px 0 black;
+    border-radius: 20px;
 }
 
 
 
 #button{
     box-shadow: 10px 5px 0 black;
+    background: #9CD33B;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    width: 940px;
 }
