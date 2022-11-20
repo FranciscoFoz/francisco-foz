@@ -26,7 +26,7 @@ h1 {
 
 #foto_resumo {
     position: absolute;
-    padding-left: 892px;
+    left: 980px;
     top: -60px;
 
 }
@@ -66,7 +66,7 @@ h1 {
 .principais_ferramentas {
     position: relative;
     top: 300px;
-    width: 1024px;
+    width: 1080px;
     margin: 0 auto;
     
 }
