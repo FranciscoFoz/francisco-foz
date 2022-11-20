@@ -30,11 +30,13 @@ main {
 }
 
 #logo_linkedin{
-    padding-left: 20%;
+    position:relative;
+    left:20%;
 }
 
 #logo_twitter{
-    padding-left: 20%;
+    position:relative;
+    left:40%;
 }
 
 
@@ -70,7 +72,7 @@ form input{
 }
 
 #mensagem {
-    height: 200px;
+    height: 150px;
     box-shadow: 10px 5px 0 black;
     border-radius: 20px;
 }
