@@ -2,28 +2,36 @@ body {
     background: #1E1E1F;
 }
 
+#nome{
+    position: relative;
+
+}
 
 h1 {
     font-size: 42px;
     color: #D9D9D9;
-    padding-top: 100px;
-    padding-left: 550px;
     font-family: "Fjalla One";
-    
+    padding-left: 30%;
+    padding-top: 5%;    
 }
 
 h2 {
     font-size: 32px;
     color:  #9CD33B;
-    padding-left: 950px;
+    padding-left: 70%;
     font-family: "Fjalla One";
 }
 
 p {
     font-size: 26px;
-    padding-left: 950px;
+    padding-left: 70%;
     color:  #9CD33B;
     font-family: "Fjalla One";
+}
+
+p:after{
+    content: "↓";
+    font-size: 42px;
 }
 
 nav {
@@ -46,7 +54,10 @@ a:hover {
 }
 
 #foto_home {
-    height: 500px;
-    position: absolute; 
-	top: 220px;
+    height: 35em;
+    position: absolute;
+    padding-top: 30%;
+    left: 0;
+    bottom: 0;
+    margin: auto; 
 }
