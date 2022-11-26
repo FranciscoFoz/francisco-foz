@@ -3,17 +3,15 @@ body {
 }
 
 .titulo_pagina {
-    position: relative;
-    width: 0px;
-    margin: 0 auto;
+    margin: auto;
+    padding-right: 10%;
     
 }
 
 h1 {
-    position: relative;
-
     color:  #9CD33B;
     font-family: "Fjalla One";
+    text-align: center;
 
 }
 
