@@ -2,21 +2,6 @@ body {
     background: #1E1E1F;
 }
 
-.titulo_pagina {
-    position: relative;
-    padding-right: 5%;
-    width: 0px;
-    margin: 0 auto;
-    
-}
-
-h1 {
-    color:  #9CD33B;
-    font-family: "Fjalla One";
-
-}
-
-
 
 main {
     position: relative;
@@ -24,9 +9,23 @@ main {
     margin: 0 auto;
 }
 
+#titulo_pagina{
+    margin: auto;
+    padding-right: 10%;
+    
+}
+
+h1 {
+    color:  #9CD33B;
+    font-family: "Fjalla One";
+    text-align: center;
+}
+
+
+
 #logos{
     width: 1024px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 #logo_linkedin{
