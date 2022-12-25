@@ -14,10 +14,10 @@
     <header>
         <title>Francisco Foz </title> 
         <nav>
-            <a href="resumo.html" > Resumo</a>
+            <a href= "#sobre" > Sobre</a>
             <a href= "#blog" > Blog</a>
             <a href="https://cursos.alura.com.br/vitrinedev/FranciscoFoz" > Portfólio</a>
-            <a href="contato.html" > Contato</a>
+            <a href="#contato" > Contato</a>
         </nav>
         
         
@@ -26,15 +26,14 @@
     </header>
 
     <body>
-        <section id="home">
-            <div id="nome">
+        <section class="home">
+            <div>
                 <h1>Francisco <br> Foz </h1>
             </div>
 
-            <div id="home">
-                <p id="titulo">
-                    Bibliotecário | <br> Analista de dados</p>
-                <p id="leia_mais"> Leia mais </p>
+            <div>
+                <p> Bibliotecário | <br> Analista de dados</p>
+                
                 <img id = "foto_home" src="images\francisco-foz-home.svg" 
                 alt="Foto do Francisco Foz, um homem branco, de cabelos curtos, óculos na cor cinza e camiseta preta de botões.">
             </div>
@@ -42,16 +41,62 @@
         </section>
 
 
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <div class="intro_sobre">,
+                <p id="descricao_sobre">
+                    Profissional com experiência em tratamento e análise de dados (Python), 
+                    criação de dashboards (Power BI), organização e tratamento da informação (física e digital). 
+                    <br>
+                    Atua no desenvolvimento de projetos de business intelligence 
+                    com o objetivo de extrair insights de dados para a tomada de decisão.
+                    <br>
+                    Estuda e desenvolve projetos de ciência de dados, desde a coleta, limpeza, 
+                    tratamento, análise e previsão de dados.
+                </p>
+
+                <p id="subtitulo"> Educação </p>
+                <p id="texto_subtitulo">
+                    Graduado em Biblioteconomia/Ciência da informação pela Pontifícia Universidade Católica de Campinas - PUCCAMP (2018).
+                </p>
+
+                <p id="subtitulo"> Objetivo </p>
+                <p id="texto_subtitulo">
+                    Se desenvolver cada vez mais na área de dados e ciência da informação, 
+                    pois acredito que a tecnologia e o conhecimento podem transformar a sociedade.
+                </p>
+
+                <p id="subtitulo"> Habilidades </p>
+                <p id="texto_subtitulo">
+                    Python (Pandas, Matplotlib, Seaborn)
+                    <br>
+                    Power BI, Data Studio.
+                    <br>
+                    Modelagem de dados, SQL
+                </p> 
+            </div>
+
+        </section>
+
+
         <section id="blog">
-            <h2>Blog</h2>
+            <h3>Blog</h3>
             <div class="textos">
                 <p id="descricao_blog">
                     Escrevo sobre ciência de dados, biblioteconomia e tecnologia. 
                 </p>
                 <p id="apresentacao_blog"> Meus últimos textos </p> 
             </div>
+        </section>
 
-
+        <section id="contato">
+            <h4>Contato</h4>
+            <div class="textos">
+                <p id="descricao_blog">
+                    Escrevo sobre ciência de dados, biblioteconomia e tecnologia. 
+                </p>
+                <p id="apresentacao_blog"> Meus últimos textos </p> 
+            </div>
         </section>
     </body>
 
