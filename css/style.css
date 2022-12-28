@@ -1,5 +1,8 @@
 body {
-    background:#1e1e1f}
+    background:#1e1e1f;
+    height: auto;
+
+}
 
 nav {
         text-align: right;
@@ -15,9 +18,9 @@ h1 {
 a {
     color: #D9D9D9;
     font-family: "Fjalla One";
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 400;
-    margin-right: 2em;
+    margin-right: 0.75em;
     padding: 1em;
     text-decoration: none;
 
@@ -31,7 +34,7 @@ a:hover {
     color:  #9CD33B;
     font-family: "Fjalla One";
     font-size: 2em;
-    padding-left: 70%;
+    padding-left: 60%;
 }
 
 .home img {
@@ -43,122 +46,173 @@ a:hover {
 
 
 
-
-
-
-
-
-
-#blog{
-    display: block;
+#sobre{
+    height: 700px auto;
 }
 
 h2 {
     color: #9CD33B;
     font-family: "Fjalla One";
-    font-size: 28px;
-
+    font-size: 2em;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
     position: relative;
     width: 0 auto;
-    text-align: center;
-    margin: 5% auto;
-    
 }
 
 #intro_sobre {
+    margin: 0 auto;
     position: relative;
     width: 0 auto;
-    margin: 0 auto;
 }
 
 #descricao_sobre{
+    color: #D9D9D9;
+    font-family: "Fjalla One";
+    font-size: 1em;
+    font-weight: 50;
+    margin: 2%;
     position: relative;
     text-align: center;
-
-    font-family: "Fjalla One";
-    font-weight: 50;
-    color: #D9D9D9;
     
 }
 
 #subtitulo{
-    position: relative;
-    width: 0 auto;
-    margin: 0 auto;
-    text-align: center;
-    margin: 5% auto;
-
     color: #9CD33B;
     font-family: "Fjalla One";
-    font-size: 20px;
+    font-size: 1.5em;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 0 auto;
+
 }
 
 #texto_subtitulo{
-    position: relative;
-    text-align: center;
-
+    color: #D9D9D9;
     font-family: "Fjalla One";
     font-weight: 50;
-    color: #D9D9D9;
+    margin-top: 0%;
+    position: relative;
+    text-align: center;
+    
+}
+
+#blog{
+    display: block;
+    height: 500px;
+    margin: 5% auto;
 }
 
 h3 {
     color: #9CD33B;
     font-family: "Fjalla One";
-    font-size: 28px;
-
+    font-size: 2em;
+    margin: 5% auto;
+    text-align: center;
     position: relative;
     width: 0 auto;
-    text-align: center;
-    margin: 5% auto;
     
 }
 
 
 #textos {
     position: relative;
-    width: 0 auto;
     margin: 0 auto;
+    width: 0 auto;
+
 }
 
 #descricao_blog{
-    position: relative;
-    text-align: center;
-
+    color: #D9D9D9;
     font-family: "Fjalla One";
     font-weight: 50;
-    color: #D9D9D9;
+    position: relative;
+    text-align: center;
     
 }
 
 #apresentacao_blog {
+    color: #D9D9D9;
+    font-family: "Fjalla One";
     position: relative;
     text-align: center;
-
-    font-family: "Fjalla One";
-    color: #D9D9D9;
     
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-gap: 4em;
+    width: 0 auto;
+}
+
+.grid img{
+    align-items: center;
+    border-radius: 5%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.grid p{
+    color: #D9D9D9;
+    font-family: "Fjalla One";
+    font-size: 0.5em;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 0 auto;
+}
+
+
+#contato{
+    height: 700px;
 }
 
 h4 {
     color: #9CD33B;
     font-family: "Fjalla One";
-    font-size: 28px;
-
-    position: relative;
-    width: 0 auto;
-    text-align: center;
+    font-size: 2em;
     margin: 5% auto;
+    margin-top: 5% auto;
+    position: relative;
+    text-align: center;
+    width: 0 auto;
+    
+}
+
+.logos{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    position:absolute;
+    text-align:center;
+    width: 99%;
+}
+
+.logos img {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 5em;
     
 }
 
 
+@media (min-width:600px){
+    body {
+        font-size:18px;
+    }
+}
 
 @media screen and (max-width:480px){
     #foto_home{
         height: 30em;
-        position: fixed;
         margin: auto;
+        position: fixed;
     }
 }
+
 
