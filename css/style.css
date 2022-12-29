@@ -47,7 +47,7 @@ a:hover {
 
 
 #sobre{
-    height: 700px auto;
+    height: 1000px auto;
 }
 
 h2 {
@@ -62,6 +62,7 @@ h2 {
 }
 
 #intro_sobre {
+    height: 700px;
     margin: 0 auto;
     position: relative;
     width: 0 auto;
@@ -72,7 +73,7 @@ h2 {
     font-family: "Fjalla One";
     font-size: 1em;
     font-weight: 50;
-    margin: 2%;
+    margin: 5%;
     position: relative;
     text-align: center;
     
@@ -82,7 +83,7 @@ h2 {
     color: #9CD33B;
     font-family: "Fjalla One";
     font-size: 1.5em;
-    margin: 0 auto;
+    margin: 3% auto;
     position: relative;
     text-align: center;
     width: 0 auto;
@@ -93,7 +94,7 @@ h2 {
     color: #D9D9D9;
     font-family: "Fjalla One";
     font-weight: 50;
-    margin-top: 0%;
+    margin-top: 1%;
     position: relative;
     text-align: center;
     
@@ -101,7 +102,7 @@ h2 {
 
 #blog{
     display: block;
-    height: 500px;
+    height: 700px;
     margin: 5% auto;
 }
 
@@ -175,7 +176,7 @@ h4 {
     color: #9CD33B;
     font-family: "Fjalla One";
     font-size: 2em;
-    margin: 5% auto;
+    margin: 12% auto;
     margin-top: 5% auto;
     position: relative;
     text-align: center;
@@ -194,8 +195,6 @@ h4 {
 }
 
 .logos img {
-    margin-left: 5%;
-    margin-right: 5%;
     width: 5em;
     
 }
